@@ -1,0 +1,95 @@
+/* login & resigter modal */
+
+#login-modal .modal-dialog {
+    max-width: 784px;
+ }
+ #login-modal .modal-dialog .modal-content{
+    border-radius: 15px;
+    overflow: hidden;
+ }
+ #login-modal .modal-dialog .modal-content .modal-header{
+ border: none;
+ }
+ #login-modal .modal-dialog .modal-content .modal-header .modal-title .nav-pills .nav-link{
+    width: 100%;
+    padding: 1.4rem ;
+    border-radius: 0%;
+    color: #000000;
+    
+ }
+ #login-modal .modal-dialog .modal-content .modal-header .modal-title .nav-pills .nav-link.active{
+    background-color: #FB2B00;
+    color: #FFF;
+ }
+ #login-modal .modal-dialog .modal-content .modal-body {
+    padding: 0rem 1rem;
+ }
+ #login-modal .modal-dialog .modal-content .tab-content .form-input-login{
+    width: 100%;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: .5px solid rgb(236, 236, 236);
+    margin: 5px 0px;
+ }
+ #login-modal .modal-dialog .modal-content .tab-content .forgot-pass{
+    font-size: 13px;
+ }
+ #login-modal .modal-dialog .modal-content .tab-content .form-login-btn{
+    background-color: rgba(6, 0, 85 , .895);
+    color: #FFF;
+    padding: .65rem 3.5rem ;
+ }
+ #login-modal .modal-dialog .modal-content .tab-content .form-login-btn:hover{
+    background-color: rgba(6, 0, 85 , 1);
+    color: #FFF;
+ }
+
+/* verification code */
+ 
+ #verifyCode #wrapper {
+    text-align: center;
+    box-sizing: border-box;
+    color: #333;
+ }
+ #verifyCode #wrapper #dialog {
+    margin: 4% auto;
+    padding: 20px 30px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    max-width: 550px;
+ }
+ #verifyCode #wrapper #dialog span {
+    font-size: 90%;
+ }
+ #verifyCode #wrapper #dialog #form {
+    /* max-width: 240px; */
+    margin: 25px auto 0;
+ }
+ #verifyCode #wrapper #dialog #form input {
+    margin: 2%;
+    text-align: center;
+    font-size: 22px;
+    border: solid 1px #ccc;
+    box-shadow: 0 0 5px #ccc inset;
+    outline: none;
+    height: 50px;
+    width: 20%;
+    transition: all 0.2s ease-in-out;
+    border-radius: 3px;
+ }
+ #verifyCode #wrapper #dialog #form input:focus {
+    border-color:rgba(6, 0, 85 ,.5);
+ }
+ #verifyCode #wrapper #dialog #form input::selection {
+    background: transparent;
+ }
+ #verifyCode #wrapper #dialog #form button {
+    margin: 30px 0 50px;
+    width: 55%;
+    padding: 5%;
+    background-color: #060055;
+    border: none;
+    text-transform: uppercase;
+ }

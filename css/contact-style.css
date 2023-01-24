@@ -1,0 +1,72 @@
+.sub-nav h6::before{
+    content: "\f104";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    margin: 7px;  
+}
+
+
+.contact-data .row .col-12 .contact-info{
+    background-color: #FFF;
+    text-align: center;
+    padding: 5%;
+    height: 100%;
+}
+
+.contact-data .row img{
+    width: 22px;
+    margin: 10% 5%;
+}
+
+.phone-num{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.form{
+    border: 2px solid #fb2b00;
+    border-radius: 15px;
+    padding: 1.75rem;
+}
+
+.form-input h6{
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+form input , form textarea{
+    width: 100%;
+    padding: 9px;
+    padding-right: 30px;
+    outline: none;
+    border-radius:  5px ;
+}
+
+form textarea{
+    width: 100%;
+    padding: 19px 30px;
+}
+
+form .btn{
+    background-color:#060055; 
+    padding: 10px 90px; 
+    transition: .3s;
+}
+
+form .btn:hover{
+    background-color:  #fb2b00;}
+
+
+
+@media (min-width: 992px) { 
+    .contact-data .row .col-12:first-child .contact-info{
+        border-top-right-radius: 40px ;
+    }
+    
+    .contact-data .row .col-12:last-child .contact-info{
+        border-top-left-radius: 40px ;
+    }
+ }
+    

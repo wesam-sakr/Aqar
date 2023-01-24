@@ -1,0 +1,44 @@
+.heading{
+    margin-bottom: 30px;
+ }
+ .heading > span{
+    width: 44px;
+    height: 44px;
+    color: var(--white);
+    background: #FB2B00;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+ }
+ .heading > h5{
+    font-size: 20px;
+    font-weight: 500;
+    
+ }
+.privacy{
+    text-align: center;
+    margin: 50px 0px;
+ }
+.privacy > ul{
+    padding: 0 30px 0 0;
+    margin-bottom:40px;
+ }
+.privacy > ul >li{
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+ }
+.privacy > ul >li .point{
+    width: 15px;
+     height: 15px;
+     /* background: var(--orange); */
+     background-color: #FB2B00;
+     border-radius: 50%;
+     margin-left: 15px;
+ }
+.privacy > ul >li >p{
+    margin: 0;
+ }

@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>aqar</title>
+   <link rel="icon" href="images/svgexport-7 (99).png">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- Bootstrap link  -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+   <!-- owl-carousel link -->
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+   <!-- rateyo link -->
+  <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+
+  <!-- nice select link -->
+  <link rel="stylesheet" href="css/nice-select.css">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!------------- nav section ------------->
+<nav class="navbar navbar-expand-lg navbar-light top-0">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img class="ms-2" src="images/svgexport-7 (99).png" width="30px" alt="">اسم الشركة</a>
+    <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarSupportedContent">
+      <ul class="navbar-nav  mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">الرئيسية</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutUs.html">من نحن</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ourServices.html">خدماتنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">المدونه</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  active" href="ourAqar.html">عقارتنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactUs.html">تواصل معنا</a>
+        </li>
+      </ul> 
+    </div>
+    <ul class="icons m-0 d-flex">
+      <li>
+        <a href="chat.html">
+          <i class="bi bi-chat-dots"></i>
+          <span class="quantity-num">0</span>
+        </a>
+      </li>
+      <li>
+        <a href="notification.html">
+          <i class="bi bi-bell"></i>
+          <span class="quantity-num">0</span>
+        </a>
+      </li>
+      <li class="top-nav-user">
+        <a href="profile.html" class="has-menu">
+          <i class="bi bi-person"></i>
+        </a>
+        <div class="sub-menu">
+          <a href="login.html">تسجيل الدخول</a>
+          <a href="register.html">انشاء حساب</a>
+          <button type="button" style="width: 100%;">تسجيل خروج</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!------------- breadcrumb -------------->
+<section class="border-bottom">
+  <div class="container">
+    <div class="d-flex pt-4 justify-content-center breadcrumb">
+        <a href="index.html" class="text-muted"> الرئيسية</a>
+        <i class="bi bi-chevron-left mx-2"></i>
+        <a href="ourAqar.html" class="text-muted">عقاراتنا</a>
+        <i class="bi bi-chevron-left mx-2"></i>
+        <h6 class="main-color">شراء عقار</h6>
+    </div>
+  </div>
+</section>
+
+<!------------- section -------------->
+<section class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-5 col-lg-3 filter">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <!-- اين  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                اين 
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="countryName" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        اسم الدوله
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="countryName" id="flexRadioDefault2">
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        اسم الدوله
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="countryName" id="flexRadioDefault3">
+                      <label class="form-check-label" for="flexRadioDefault3">
+                        اسم الدوله
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="countryName" id="flexRadioDefault4">
+                      <label class="form-check-label" for="flexRadioDefault4">
+                        اسم الدوله
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- نوع العقار  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                نوع العقار
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="aqarModel" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        نوع العقار 
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="aqarModel" id="flexRadioDefault2">
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        نوع العقار
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="aqarModel" id="flexRadioDefault3">
+                      <label class="form-check-label" for="flexRadioDefault3">
+                        نوع العقار
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="aqarModel" id="flexRadioDefault4">
+                      <label class="form-check-label" for="flexRadioDefault4">
+                        نوع العقار 
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="middle">
+          <span class="priceRange">سعر العقار</span>
+          <div class="slider-container">
+            <span class="bar"><span class="fill" style="width: 50%;"></span></span>
+            <input id="slider" class="slider" type="range" min="0" max="100" value="50">
+          </div>
+        </div>
+        <div class="d-flex justify-content-between text-muted mx-3">
+          <span>0</span>
+          <span>500</span>
+          <span>2000</span>
+        </div>
+        <button type="button" class="btn">تصفية</button>
+      </div>
+
+      <div class="col filter-data">
+
+        <div class="row gy-3 search mb-4">
+          <div class="col d-flex align-items-center">
+            <h5 class="m-0">نتائج البحث : <span class="main-color">19 عنصر</span></h5>
+          </div>
+          <div class="col-12 col-md-5">
+            <div class="row gx-0 align-items-center">
+              <select class="col bg-light form-control mx-2">
+                <option >الكل</option>
+                <option value="1">ايجار عقار</option>
+                <option selected value="2">شراء عقار</option>
+              </select>
+              <!-- show single or double -->
+              <ul class="col-auto nav nav-tabs m-0 w-auto" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link bg-light" id="single-tab" data-bs-toggle="tab" data-bs-target="#single" type="button" role="tab" aria-controls="single" aria-selected="true">
+                    <i class="bi bi-list"></i>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link bg-light active" id="double-tab" data-bs-toggle="tab" data-bs-target="#double" type="button" role="tab" aria-controls="double" aria-selected="false">
+                    <i class="bi bi-grid-fill"></i>
+                  </button>
+                </li>
+              </ul>
+              </div>
+          </div>
+        </div>
+
+        <!-- filter-data -->
+        <div class="tab-content" id="myTabContent">
+          <!-- show single data -->
+          <div class="tab-pane fade" id="single" role="tabpanel" aria-labelledby="single-tab">
+            <div class="our-aqars my-aqars">
+              <div class="row gy-4">
+                <!-- single card -->
+                <div class="col-lg-12">
+                  <div class="card">
+                    <div class="card-img position-relative px-3 py-3">
+                      <img src="images/Group 2385.png" class="card-img-top" alt="..." height="170px !important">
+                      <div class="card-hover">
+                        <div class="icons">
+                          <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        </div>
+                        <div class="icons">
+                          <a class="link" href="showSingle.html"></a>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                        <button class="fav icons">
+                          <i onclick="favFunction(this)" class="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <p class="secondry-color m-0">$505,00</p>
+                      <div>
+                        <h5 class="card-title">شقه مطله علي البحر بحديقه</h5>
+                        <p class="card-text">
+                          <i class="bi bi-geo-alt"></i>
+                          <span>موقع المنزل يكتب هنا</span>
+                        </p>
+                      </div>
+                      <div class="row">
+                        <div class="col-4">
+                          <small class="text-muted">
+                            <i class="fa-solid fa-bed"></i>
+                            <span>2 غرفة نوم</span>
+                          </small>
+                        </div>
+                        <div class="col-4">
+                          <small class="text-muted">
+                            <i class="fa-solid fa-bath"></i>
+                            <span>2 حمام</span>
+                          </small>
+                        </div>
+                        <div class="col-4">
+                          <small class="text-muted">
+                            <i class="fa-solid fa-warehouse"></i>
+                            <span>3000</span>
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- single card -->
+                <div class="col-lg-12">
+                  <div class="card">
+                    <div class="card-img position-relative px-3 py-3">
+                      <img src="images/Group 2385.png" class="card-img-top" alt="..." height="170px !important">
+                      <div class="card-hover">
+                        <div class="icons">
+                          <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        </div>
+                        <div class="icons">
+                          <a class="link" href="showSingle.html"></a>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                        <button class="fav icons">
+                          <i onclick="favFunction(this)" class="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <p class="secondry-color m-0">$505,00</p>
+                      <div>
+                        <h5 class="card-title">شقه مطله علي البحر بحديقه</h5>
+                        <p class="card-text">
+                          <i class="bi bi-geo-alt"></i>
+                          <span>موقع المنزل يكتب هنا</span>
+                        </p>
+                      </div>
+                      <div class="row">
+                        <div class="col-4">
+                          <small class="text-muted">
+                            <i class="fa-solid fa-bed"></i>
+                            <span>2 غرفة نوم</span>
+                          </small>
+                        </div>
+                        <div class="col-4">
+                          <small class="text-muted">
+                            <i class="fa-solid fa-bath"></i>
+                            <span>2 حمام</span>
+                          </small>
+                        </div>
+                        <div class="col-4">
+                          <small class="text-muted">
+                            <i class="fa-solid fa-warehouse"></i>
+                            <span>3000</span>
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- single card -->
+                <div class="col-lg-12">
+                  <div class="card">
+                    <div class="card-img position-relative px-3 py-3">
+                      <img src="images/Group 2385.png" class="card-img-top" alt="..." height="170px !important">
+                      <div class="card-hover">
+                        <div class="icons">
+                          <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        </div>
+                        <div class="icons">
+                          <a class="link" href="showSingle.html"></a>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                        <button class="fav icons">
+                          <i onclick="favFunction(this)" class="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <p class="secondry-color m-0">$505,00</p>
+                      <div>
+                        <h5 class="card-title">شقه مطله علي البحر بحديقه</h5>
+                        <p class="card-text">
+                          <i class="bi bi-geo-alt"></i>
+                          <span>موقع المنزل يكتب هنا</span>
+                        </p>
+                      </div>
+                      <div class="row">
+                        <div class="col-4">
+                          <small class="text-muted">
+                            <i class="fa-solid fa-bed"></i>
+                            <span>2 غرفة نوم</span>
+                          </small>
+                        </div>
+                        <div class="col-4">
+                          <small class="text-muted">
+                            <i class="fa-solid fa-bath"></i>
+                            <span>2 حمام</span>
+                          </small>
+                        </div>
+                        <div class="col-4">
+                          <small class="text-muted">
+                            <i class="fa-solid fa-warehouse"></i>
+                            <span>3000</span>
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- show double data -->
+          <div class="tab-pane fade show active" id="double" role="tabpanel" aria-labelledby="double-tab">
+            <div class="col">
+              <div class="our-aqars">
+                <div class="row gy-3">
+
+                  <div class="col-lg-6">
+                    <div class="card">
+                      <div class="card-img position-relative px-3 pt-3">
+                        <img src="images/Group 2385.png" class="card-img-top" alt="...">
+                        <div class="card-hover">
+                          <div class="icons">
+                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                          </div>
+                          <div class="icons">
+                            <a class="link" href="showSingle.html"></a>
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                          </div>
+                          <button class="fav icons">
+                            <i onclick="favFunction(this)" class="fa-regular fa-heart"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="secondry-color">$505,00</p>
+                        <h5 class="card-title">شقه مطله علي البحر بحديقه</h5>
+                        <p class="card-text">
+                          <i class="bi bi-geo-alt"></i>
+                          <span>موقع المنزل يكتب هنا</span>
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="row">
+                          <div class="col-4">
+                            <small class="text-muted">
+                              <i class="fa-solid fa-bed"></i>
+                              <span>2 غرفة نوم</span>
+                            </small>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">
+                              <i class="fa-solid fa-bath"></i>
+                              <span>2 حمام</span>
+                            </small>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">
+                              <i class="fa-solid fa-warehouse"></i>
+                              <span>3000</span>
+                            </small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="card">
+                      <div class="card-img position-relative px-3 pt-3">
+                        <img src="images/Group 2385.png" class="card-img-top" alt="...">
+                        <div class="card-hover">
+                          <div class="icons">
+                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                          </div>
+                          <div class="icons">
+                            <a class="link" href="showSingle.html"></a>
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                          </div>
+                          <button class="fav icons">
+                            <i onclick="favFunction(this)" class="fa-regular fa-heart"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="secondry-color">$505,00</p>
+                        <h5 class="card-title">شقه مطله علي البحر بحديقه</h5>
+                        <p class="card-text">
+                          <i class="bi bi-geo-alt"></i>
+                          <span>موقع المنزل يكتب هنا</span>
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="row">
+                          <div class="col-4">
+                            <small class="text-muted">
+                              <i class="fa-solid fa-bed"></i>
+                              <span>2 غرفة نوم</span>
+                            </small>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">
+                              <i class="fa-solid fa-bath"></i>
+                              <span>2 حمام</span>
+                            </small>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">
+                              <i class="fa-solid fa-warehouse"></i>
+                              <span>3000</span>
+                            </small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="card">
+                      <div class="card-img position-relative px-3 pt-3">
+                        <img src="images/Group 2385.png" class="card-img-top" alt="...">
+                        <div class="card-hover">
+                          <div class="icons">
+                            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                          </div>
+                          <div class="icons">
+                            <a class="link" href="showSingle.html"></a>
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                          </div>
+                          <button class="fav icons">
+                            <i onclick="favFunction(this)" class="fa-regular fa-heart"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="secondry-color">$505,00</p>
+                        <h5 class="card-title">شقه مطله علي البحر بحديقه</h5>
+                        <p class="card-text">
+                          <i class="bi bi-geo-alt"></i>
+                          <span>موقع المنزل يكتب هنا</span>
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="row">
+                          <div class="col-4">
+                            <small class="text-muted">
+                              <i class="fa-solid fa-bed"></i>
+                              <span>2 غرفة نوم</span>
+                            </small>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">
+                              <i class="fa-solid fa-bath"></i>
+                              <span>2 حمام</span>
+                            </small>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">
+                              <i class="fa-solid fa-warehouse"></i>
+                              <span>3000</span>
+                            </small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!------------- filter in sm media -------------->
+<!-- filter  btn -->
+<a id="filter" role="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-sliders fs-5"></i></a>
+              
+<!-- filter option -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+      <h6 id="offcanvasRightLabel" class="w-100 text-center mb-0">التصفيه</h6>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <!-- اين  -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+            اين 
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <ul>
+              <li>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="countryName" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    اسم الدوله
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="countryName" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    اسم الدوله
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="countryName" id="flexRadioDefault3">
+                  <label class="form-check-label" for="flexRadioDefault3">
+                    اسم الدوله
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="countryName" id="flexRadioDefault4">
+                  <label class="form-check-label" for="flexRadioDefault4">
+                    اسم الدوله
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- نوع العقار  -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            نوع العقار
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <ul>
+              <li>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="aqarModel" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    نوع العقار 
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="aqarModel" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    نوع العقار
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="aqarModel" id="flexRadioDefault3">
+                  <label class="form-check-label" for="flexRadioDefault3">
+                    نوع العقار
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="aqarModel" id="flexRadioDefault4">
+                  <label class="form-check-label" for="flexRadioDefault4">
+                    نوع العقار 
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="middle">
+      <span class="priceRange">سعر العقار</span>
+      <div class="slider-container">
+        <span class="bar"><span class="fill" style="width: 50%;"></span></span>
+        <input id="slider" class="slider" type="range" min="0" max="100" value="50">
+      </div>
+    </div>
+    <div class="d-flex justify-content-between text-muted mx-3">
+      <span>0</span>
+      <span>500</span>
+      <span>2000</span>
+    </div>
+  </div>
+  <button type="button" class="btn">تصفية</button> 
+</div>
+
+
+<!------------- footer section -------------->
+<footer>
+  <div class="container my-3">
+      <div class="row gx-4 justify-content-between">
+          <!-- الشركه  -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="d-flex align-items-center">
+                <img class="ms-3" src="images/svgexport-7 (99) (1).svg" width="10%" alt="">
+                <h4 class="mt-3">اسم الشركة</h4>
+            </div>
+            
+            <p class="my-4">وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم</p>
+
+            <!-- social -->
+            <div class="social">
+              <div>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <div>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <div>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+              <div>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- معلومات -->
+          <div class="col-12 col-sm-4 col-md-4 col-lg-2 mt-3">
+              <h4>معلومات</h4>
+              <div class="ln"></div>
+              <ul>
+                <li><a href="aboutUs.html">من نحن</a></li>
+                <li><a href="condition.html">الشروط والأحكام</a></li>
+                <li><a href="">الشحن والتوصيل</a></li>
+                <li><a href="privacy-policy.html">سياسيات الخصوصية</a></li>
+              </ul>
+          </div>
+
+          <!-- خدمة العملاء -->
+          <div class="col-12 col-sm-4 col-sm-4 col-md-4 col-lg-2 mt-3">
+              <h4>خدمة العملاء</h4>
+              <div class="ln"></div>
+              <ul>
+                <li><a href="contactUs.html">تواصل معنا</a></li>
+                <li><a href="">إرجاع الطلب</a></li>
+                <li><a href="">إلغاء الطلب</a></li>
+              </ul>  
+          </div>
+
+           <!-- إضافات -->
+          <div class="col-12 col-sm-4 col-md-4 col-lg-2 mt-3">
+              <h4>إضافات</h4>
+              <div class="ln"></div>
+              <ul>
+                <li><a href="">الشركات</a></li>
+                <li><a href="">قسائم الهدايه</a></li>
+                <li><a href="">العروض المميزه</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <!-- nested footer -->
+  <div class="sub-footer">
+    <p class="text-center mb-0">
+      جميع الحقوق محفوظه لموقع
+       <a href="https://smartvision4p.com" target="_blank">
+          <span class="text-white">سمارت فيجن لتصميم المواقع والتطبيقات<span class="mx-2"> | </span></span>
+          <img src="https://cyclo-bikes.com/style/images/dev.svg" alt="">
+       </a>
+    </p>
+</div>
+</footer>
+
+
+
+<!-- jQuery script -->
+<script src="js/jquery-3.6.0.min.js"></script>
+
+<!-- lottiefiles script -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<!-- owl-carousel script -->
+<script src="js/owl.carousel.min.js"></script>
+
+<!-- bootstrap script -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- rateyo script -->
+<script src="js/jquery.rateyo.min.js"></script>
+
+<!-- nice select script -->
+<script src="js/jquery.nice-select.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
